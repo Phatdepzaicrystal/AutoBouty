@@ -1,5 +1,5 @@
 Setup = {
-    ['PC-er'] = true,
+    ['PC-er'] = false,
     ['Team'] = 'Pirates',
     ['Auto Team'] = {
         ['Enabled'] = false,
@@ -18,12 +18,12 @@ Setup = {
 
 Hunter = {
     ['Ignore'] = {
-        ['Fruit'] = { 
+        ['Fruit'] = {  
             'Portal-Portal',
             'Kitsune-Kitsune',
             'Meme-Meme'
         },
-        ['Timer'] = 30,
+        ['Timer'] = 60,
         ['V4'] = true
     },
     ['Comeback On Sus Kill'] = false,
@@ -34,8 +34,8 @@ Hunter = {
 }
 
 Booster = {
-    ['Hide Gui'] = true,
-    ['Showcase Mode'] = false,
+    ['Hide Gui'] = false,
+    ['Showcase Mode'] = true,
     ['White Screen'] = false,
     ['Hide Map'] = false
 }
@@ -43,13 +43,13 @@ Booster = {
 Skills = {
     ['Melee'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 0, 0}, 
+        ['Z'] = {true, 1.25, 0}, 
         ['X'] = {true, 0, 0}, 
         ['C'] = {true, 0, 0}
     },
     ['Blox Fruit'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 0, 0}, 
+        ['Z'] = {true, 1.25, 0}, 
         ['X'] = {true, 0, 0}, 
         ['C'] = {true, 0, 0},
         ['V'] = {true, 0, 0},
@@ -70,11 +70,10 @@ Skills = {
 Macro = {
     ['Enabled'] = true,
     ['Skills'] = {
-        [1] = {'Melee', {'C'}},
-        [2] = {'Blox Fruit', {'V', 'C'}},
-        [3] = {'Melee', {'Z'}},
-        [4] = {'Blox Fruit', {'X', 'Z', 'F'}},
-        [5] = {'Melee', {'X'}}
+        [1] = {'Melee', {'Z','C'}},
+        [2] = {'Blox Fruit', {'Z', 'C', 'V', 'F'}},
+        [3] = {'Melee', {'X'}},
+        [4] = {'Blox Fruit', {'X'}}
     }
 }
 
